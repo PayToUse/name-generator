@@ -21,5 +21,5 @@ function generateName() {
 }
 
 function makeName() {
-    document.getElementById("name").innerHTML = "Here are your generated names:<br><br><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li>";
+    document.getElementById("name").innerHTML = "Here are some of the generated names that you can use:<br><br><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li>";
 }
