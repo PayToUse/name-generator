@@ -25,3 +25,12 @@ hr {
 hp {
     opacity: 0.5;
 }
+a {
+    opacity: 0.5;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover {
+    opacity: 1;
+}
