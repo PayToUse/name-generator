@@ -20,6 +20,7 @@ function generateName() {
     return fullName
 }
 
+// make a function to execute the name generating function
 function makeName() {
     document.getElementById("name").innerHTML = "Here are some of the generated names that you can use:<br><br><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li><li>" + generateName() + "</li>";
 }
